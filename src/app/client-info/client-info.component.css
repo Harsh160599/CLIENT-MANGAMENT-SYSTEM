@@ -1,0 +1,113 @@
+.abc
+{
+    background-image: url('https://images.unsplash.com/photo-1592551464508-b057af88682f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif; 
+    color: #333;
+    height: 200vh;
+}
+a
+{
+ color: rgb(246, 242, 242);  
+ font-size: larger; 
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+table{
+    position: absolute;
+    top: 6%;
+    border-color: black;
+    border-width: 15px;
+    background-color: black;
+    height: 60px;
+    border-color: rgb(255, 255, 255);
+    border-width: 10px;
+}
+.bca
+{
+  position: absolute;
+  top: 30%;
+  left:10%;
+}
+button
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  height: 25px;
+  background-color: rgb(17, 16, 18);
+  height: 50px;
+  box-shadow: 0 0 10px rgb(29, 99, 115);
+  color: white;
+  margin-top: 30px;
+  margin-left: 120px;
+}
+form{
+  width: 350px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.97);
+  background-color: rgba(9, 10, 10, 0.544);
+  position:absolute;
+  top:20%;
+  left:40%;
+ 
+}
+h1{
+  background-color: black;
+  width: 100%;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight: bold;
+}
+label {
+  margin-left: 45px;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+  }
+  input{
+    margin-left: 45px;
+    width: 250px;
+  }
+  .bv
+  {
+    position: absolute;
+    top:100%;
+    left:23%;
+    height: 50vh;
+  }
+  .nm{
+    width:800px;
+    
+  }
+.as{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-weight: bold;
+ color: white;
+ text-align: center;
+ font-size: large;
+ background-color: black;
+}
+.re{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: rgb(9, 8, 8);
+  text-align: center;
+  background-color: white;
+ }
+ .ab{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  height: 25px;
+  background-color: rgb(17, 16, 18);
+  height: 50px;
+  box-shadow: 0 0 10px rgb(29, 99, 115);
+  color: white;
+
+ }

@@ -1,0 +1,120 @@
+.abc
+{background-image: url('https://images.unsplash.com/photo-1592551464508-b057af88682f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif; 
+    color: #333;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.form-container
+{
+    max-width: 500px;
+   margin:100px;
+    padding: 20px;
+    border: 1px solid #dad1d1;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.97);
+    background-color: rgba(9, 10, 10, 0.544);
+    position:absolute;
+    top:20%;
+    left:5%;
+}
+.t
+{
+    position: absolute;
+    top: 6%;
+    border-color: black;
+    border-width: 15px;
+    background-color: black;
+    height: 60px;
+    border-color: rgb(255, 255, 255);
+    border-width: 10px;
+}
+a
+{
+ color: rgb(246, 242, 242);  
+ font-size: larger; 
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bv
+{
+    position: absolute;
+    top: 35%;
+    left:55%;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.764);
+    border: 1px;
+    width: 500px;
+    border-color: #000;
+    border: 1px solid black;
+}
+.tm
+{
+    color: rgb(253, 248, 248);
+    background-color: #000;
+    border: 1px solid black;
+
+}
+.tn{
+    color:rgb(14, 13, 13);
+    background-color: white;
+    border: 1px solid black;
+}
+th{
+    color: #f0e3e3;
+    border: 1px solid black;
+}
+btn
+{
+background-color: #000;
+}
+label{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+button{
+    background-color: #000;
+}
+.b1{
+    position: absolute;
+    top:80%;
+    width:50px;
+    left:20%;
+    height: 20px;
+
+}
+h1{
+    background-color: #000;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#bt
+{
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+#px
+{
+    position: absolute;
+    top:20%;
+    left: 17%;
+    width: 100px;
+    height: 70px;
+}
+.ab{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    height: 25px;
+    background-color: rgb(17, 16, 18);
+    height: 50px;
+    box-shadow: 0 0 10px rgb(29, 99, 115);
+    color: white;
+  
+   }

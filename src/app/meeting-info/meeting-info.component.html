@@ -1,0 +1,70 @@
+<div class="abc">
+<table class="t" width="100%">
+    <tr style="text-align: center;">
+    <th>
+        <a routerLink="/home">Home</a>
+    </th>
+    <th>
+        <a routerLink="/client_info">Client Info</a>
+    </th>
+    <th>
+        <a routerLink="/project_info">Project Info</a>
+    </th>
+    <th>
+      <a routerLink="/tasks_info">Tasks Info</a>
+  </th>
+    <th>
+        <a routerLink="/meeting_info">Meetings Info</a>
+    </th>
+    <th>
+        <a routerLink="/login">Logout</a>
+      </th>
+</tr>
+</table> 
+<!-- <button id="nh" class="btn btn-primary" (click)="openForm()">Create Meeting</button> -->
+<form [formGroup]="meetingForm" (ngSubmit)="onSubmit()">
+    <h1>Create Meeting</h1>
+    <div>
+    <label>ID:</label>
+      <input type="text" formControlName="id" name="id">
+    </div>
+  <div>
+    <label> Topic:</label>
+      <input type="text" formControlName="topic" name="topic">
+  </div>
+  <div>
+    <label>Number of Persons:</label>
+      <input type="number" formControlName="numberOfPerson" name="numberOfPerson">
+    </div>
+  <div>
+    <label>Start Date and Time:</label>
+      <input type="datetime-local" formControlName="startDateandTime" name="startDateandTime">
+    </div>
+  <div>
+    <label>Client ID:</label>
+      <select formControlName="clientId">
+        <option *ngFor="let client of clients" [value]="client.id">{{client.clientName}}</option>
+      </select>
+  </div>
+    <button type="submit">Create Meeting</button>
+  </form>
+
+<table class="nb">
+  <tr class="bx">
+    <th>ID</th>
+    <th>Topic</th>
+    <th>Number of Persons</th>
+    <th>Start Date and Time</th>
+    <th>Client ID</th>
+    <th>Operation</th>
+  </tr>
+  <tr class="pd" *ngFor="let meet of meetings; let i=index">
+    <td>{{meet.id}}</td>
+    <td>{{meet.topic}}</td>
+    <td>{{meet.numberOfPerson}}</td>
+    <td>{{meet.startDateandTime}}</td>
+   <td>{{meet.clientId}}</td>
+   <td><input class="ab" type="button" value="Detete" (click)="DeleteMeeting(i,meet)"/></td>
+  </tr>
+</table>
+</div>

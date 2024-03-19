@@ -1,0 +1,34 @@
+  {
+"clients": [
+    {
+      "id": "1",
+      "clientName": "Ravi",
+      "address": "Cityville",
+      "email": "ravi@gmail.com",
+      "password": "securepassword123"
+    }
+  ],
+"Project": [
+{
+   "projectid":"101:,
+   "project name":"Library",
+   "Duration":"1"
+}
+],
+"Task":[
+{
+
+"taskid":"111",
+"project":"project1",
+"taskname":"manage",
+"Description":"Add the task"
+}
+],
+"Meeting":[
+{
+"ID":"55",
+"Topic":"SL1",	
+"NumberofPerson":"4",
+"StartDateandTime":"2023-04-02"
+"ClientID":101
+}

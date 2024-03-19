@@ -1,0 +1,68 @@
+<div class="abc">
+  <table class="t" width="100%">
+    <tr style="text-align: center;">
+    <th>
+        <a routerLink="/home">Home</a>
+    </th>
+    <th>
+        <a routerLink="/client_info">Client Info</a>
+    </th>
+    <th>
+        <a routerLink="/project_info">Project Info</a>
+    </th>
+    <th>
+      <a routerLink="/tasks_info">Tasks Info</a>
+  </th>
+    <th>
+        <a routerLink="/meeting_info">Meetings Info</a>
+    </th>
+    <th>
+        <a routerLink="/login">Logout</a>
+      </th>
+</tr>
+</table>
+<div class="container">
+    <button id="px" class="btn btn-primary" (click)="openForm()">New Project</button>
+    <div class="form-container" *ngIf="isFormOpen">
+      <form (ngSubmit)="addProject()">
+        <h1> Add Project</h1>
+        <div class="form-group">
+          <label for="id">ID:</label>
+          <input type="text" name="pid" class="form-control" name="id" id="id" [(ngModel)]="project.id" required>
+        </div>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" name="Pname" class="form-control" name="name" id="name" [(ngModel)]="project.name" required>
+        </div>
+        <div class="form-group">
+          <label for="duration">Duration:</label>
+          <input type="text" name="pdura" class="form-control"  id="duration" [(ngModel)]="project.duration" required>
+        </div>
+        <div class="form-group">
+          <label for="clentid">Client Id:</label>
+          <select  class="form-control" name="clientid" [(ngModel)]="project.clientid">
+            <option *ngFor="let cli  of client;" [value]="cli.id">{{cli.clientName}}</option>
+          </select>
+          <!-- <input type="text" name="clientid" class="form-control"  id="clientid" [(ngModel)]="project.clientid" required> -->
+        </div>
+        <button id="bt" type="submit" class="btn btn-primary">Add Project Button</button>
+      </form>
+    </div>
+  </div>
+  <table class="bv">
+    <tr class="tm">
+      <th>Project ID</th>
+      <th>Project Name</th>
+      <th>Duration</th>
+      <th>Client Id</th>
+      <th>Operation</th>
+    </tr>
+    <tr class="tn" *ngFor="let project of projects; let i=index">
+      <td>{{ project.id }}</td>
+      <td>{{ project.name }}</td>
+      <td>{{ project.duration }}</td>
+      <td>{{project.clientid}}</td>
+      <td><input class="ab" type="button" value="Detete" (click)="DeleteProject(i,project)"/></td>
+    </tr>
+</table>
+</div>

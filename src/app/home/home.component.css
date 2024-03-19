@@ -1,0 +1,93 @@
+.bca
+{
+    background-image: url('https://images.unsplash.com/photo-1592551464508-b057af88682f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif; 
+    color: #333;
+    height: 100vh;
+}
+.abc
+{
+    margin-top: 500px;
+    width: 100%;
+}
+.ha
+{
+    color: white;
+    width: 100%;
+    text-align: justify;
+    font-size: 50px; 
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform:translateX(-50%);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 0 0 10px white,0 0 20px rgb(24, 24, 24);
+  
+}
+.ha2
+{
+    color: white;
+    width: 100%;
+    text-align: justify;
+    font-size: 50px; 
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform:translateX(-50%);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 0 0 10px white,0 0 20px rgb(24, 24, 24);
+}
+.im
+{   position: absolute;
+    top: 30%;
+    left: 30%;
+    transform:translateX(-50%); 
+}
+.bu
+{   position: absolute;
+    top: 55%;
+    left: 80%;
+    transform:translateX(-50%); 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    height: 25px;
+    background-color: rgb(17, 16, 18);
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(29, 99, 115);
+    color: white;
+}
+
+.bu:hover{
+    box-shadow: 0 0 5px rgba(243, 240, 237, 0.916),
+    0 0 25px rgb(212, 208, 205),0 0 50px rgb(229, 229, 226);
+}
+.hs
+{
+    color: white;
+    width: 100%;
+    text-align: justify;
+    font-size: 30px; 
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    transform:translateX(-50%);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 0 0 10px white,0 0 20px rgb(24, 24, 24);
+}

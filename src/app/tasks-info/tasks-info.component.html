@@ -1,0 +1,71 @@
+<div class="bca">
+  <table class="t" width="100%">
+    <tr style="text-align: center;">
+    <th>
+        <a routerLink="/home">Home</a>
+    </th>
+    <th>
+        <a routerLink="/client_info">Client Info</a>
+    </th>
+    <th>
+        <a routerLink="/project_info">Project Info</a>
+    </th>
+    <th>
+      <a routerLink="/tasks_info">Tasks Info</a>
+  </th>
+    <th>
+        <a routerLink="/meeting_info">Meetings Info</a>
+    </th>
+    <th>
+        <a routerLink="/login">Logout</a>
+      </th>
+</tr>
+</table> 
+<h2> Client's Task Information</h2>
+<h3>  Details of the tasks </h3>
+    <div class="container">
+      <button id="sd" class="btn btn-success" (click)="openForm()">Add New Task</button>
+              <div class="form-container" *ngIf="isFormOpen">
+              <form (ngSubmit)="addTask()">
+                <h1>Add Task</h1>
+                  <div class="form-group">
+          
+          <label for="id">ID:</label>
+          <input type="text" name="tid" class="form-control" id="id" [(ngModel)]="tasks.id" required>
+        </div>
+       
+        <div class="form-group">
+          <label for="taskName">Task Name:</label>
+          <input type="text" name="tname" class="form-control" id="taskName" [(ngModel)]="tasks.taskname" required>
+        </div>
+        <div class="form-group">
+          <label for="description">Description:</label>
+          <textarea class="form-control" name="tdes" id="description" rows="3" [(ngModel)]="tasks.Description" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="project">Project:</label>
+           <select class="form-control" name="tproject" id="project" [(ngModel)]="tasks.projectname" required> -->
+            <option *ngFor="let proj of project;" [value]="proj.name">{{ proj.name}}</option> --> -->
+          </select> --> -->
+         </div> --> -->
+            <button class="by" type="submit" (click)="addTask()">Add Task Button</button>
+      </form>
+    </div>
+  </div>
+  <table class="table">
+      <tr >
+        <th>ID</th>
+        <th>Task Name</th>
+        <th>Description</th>
+        <th>Project</th>
+        <th>Operation</th>
+      </tr>
+      <tr class="tx" *ngFor="let tsk of task;let i=index">
+        <td>{{ tsk.id }}</td>
+        <td>{{ tsk.taskname }}</td>
+        <td>{{ tsk.Description }}</td>
+        <td>{{ tsk.projectname }}</td>
+        <td><input class="ab" type="button" value="Detete" (click)="DeleteTask(i,tsk)"/></td>
+    </tr>
+  </table>
+  </div>

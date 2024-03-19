@@ -1,0 +1,57 @@
+{
+  "clients": [
+    {
+      "id": "101",
+      "clientName": "ravidu",
+      "address": "SHEETIHALLI",
+      "email": "nabhbsk@gamil.com",
+      "password": "tftfttftt55"
+    },
+    {
+      "id": "102",
+      "clientName": "Abhi",
+      "address": "dfejnfe",
+      "email": "skjs@gsvhvs",
+      "password": "fcxd5edttg"
+    },
+    {
+      "id": "103",
+      "clientName": "Rahul",
+      "address": "UP",
+      "email": "rahul@gmail.com",
+      "password": "hdwfebrfdjbrfd"
+    },
+    {
+      "id": "104",
+      "clientName": "Abdul",
+      "address": "Bagalgunte",
+      "email": "abdul@gmail.com",
+      "password": "djbjdb bjdbds"
+    },
+    {
+      "id": "105",
+      "clientName": "Ajay",
+      "address": "Mp",
+      "email": "ajay@gmail.com",
+      "password": "hdbhvdwbu3jw"
+    }
+  ],
+  "project": [
+    {
+      "id": "1111",
+      "name": "Library",
+      "duration": "4 month",
+      "clientid": "101"
+    }
+  ],
+  "task": [],
+  "Meeting": [
+    {
+      "id": "874",
+      "topic": "INRODUCTION",
+      "numberOfPerson": 5,
+      "startDateandTime": "2024-02-17T17:51",
+      "clientId": "101"
+    }
+  ]
+}
